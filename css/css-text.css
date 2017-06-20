@@ -1,0 +1,48 @@
+#main {
+  color: navy;
+  font-family: "Times new roman", verdana, serif, sans-serif;
+  font-size: 34px;
+  line-height: 50px;
+
+}
+
+#main::first-letter {
+  color: red;
+  font-size: 200%;
+}
+
+#main::first-line {
+  color: pink;
+  line-height: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+}
+.open_sansregular {
+  font-family: "open_sansregular",sans-serif;
+}
+
+a,
+a:visited {
+  color: gold;
+}
+
+a:focus,
+a:hover {
+  color: orange;
+}
+
+ul a,
+ul a:visited {
+  color: blue;
+}
+
+ul a:focus,
+ul a:hover {
+  color: lightblue;
+}

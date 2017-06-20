@@ -1,0 +1,30 @@
+body,head {
+  background-color: silver ;
+  font: 7px;
+}
+img {
+  height: 150px ;
+  width: 250px ;
+}
+.sous-titre{
+  margin: 10px 0 10px 0;
+  text-align: center;
+  text-decoration: underline;
+  font: 20px sans-serif;
+  font-style: italic;
+  background-color: green ;
+}
+h1,h2,h3{
+  text-decoration: underline;
+  font-size: 30px ;
+  text-align: center ;
+  background-color: red ;
+}
+h4{
+font-size: 20px ;
+text-align: center;
+font-style: italic;
+}
+div {
+  text-align:center ;
+}

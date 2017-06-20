@@ -1,0 +1,55 @@
+.fixed {
+  background-color: lightblue;
+  left: 0px;
+  top: 0%;
+  height: 200px;
+  position: fixed;
+  width:100%;
+  z-index: 1000;
+
+}
+
+.placeholder {
+  height: 200px;
+  width: 100%;
+}
+
+.vertical-center {
+  left: 0px;
+  position: relative;
+  top: 5px;
+}
+
+.rectangle {
+  position: relative;
+  background-color: aquamarine;
+  height: 300px;
+  left: 0px;
+  width: 100%;
+}
+
+.rectangle p,
+.carre p,
+.fixed p {
+  left: 50%;
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carre {
+position: relative;
+background-image: url("../img/blog1.jpeg");
+height: 200px;
+width: 200px;
+left: 45%;
+text-align: center;
+}
+
+.title {
+  font-size: 30px;
+  font-style: italic;
+  font: bold;
+  color: lightyellow;
+}
